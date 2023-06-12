@@ -7,7 +7,8 @@ how-to instructions for anything git related
 4. list all lfs files `git lfs ls-files`
 5. on web browser version of git repository, delete contents in `.gitattributes` file. Do not delete the file
 6. Do the following git CLI instructions
-```git lfs untrack '<pattern>' (in my case, all files "*.*")
+```
+git lfs untrack '<pattern>' (in my case, all files "*.*")
 git add --renormalize .
 git commit -m 'Restore file contents that were previously in LFS' 
 ```
