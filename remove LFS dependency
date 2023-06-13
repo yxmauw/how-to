@@ -1,4 +1,4 @@
-1. find repositories that are using git LFS
+1. find repositories that are using git LFS from User settings > billing and plans > Plans and usage > Git LFS Data
 2. git clone repositories locally
 3. remove hooks `git lfs uninstall`
 4. list all lfs files `git lfs ls-files`
